@@ -1,4 +1,5 @@
-ipynblog_template:
+!TemplateConfig
+ipynblog_template: !IpynbTemplate
     nbconvert_template: ./nbconvert/distill_v2_svelte.tpl
     nbconvert_input: ./notebooks/test.ipynb
     nbconvert_output: ./public/index.html
