@@ -1,0 +1,5 @@
+ipynblog_template:
+    nbconvert_template: ./nbconvert/distill_v2_svelte.tpl
+    nbconvert_input: ./notebooks/test.ipynb
+    nbconvert_output: ./public/index.html
+    images_dir: ./public/images/
