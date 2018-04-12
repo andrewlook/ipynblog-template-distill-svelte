@@ -10,9 +10,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://distill.pub/template.v2.js"></script>
-    <style>
-        <%= require("./style.css") %>
-    </style>
 
     {% set nb_title = nb.metadata.get('title', '') or resources['metadata']['name'] %}
     <title>{{nb_title}}</title>
