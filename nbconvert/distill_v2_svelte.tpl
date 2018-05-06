@@ -18,6 +18,12 @@
     <script src="https://unpkg.com/jupyter-js-widgets@2.0.*/dist/embed.js"></script>
     {%- endif-%}
 
+    <style type="text/css">
+        .anchor-link {
+            display: none;
+        }
+    </style>
+
     {#    {% for css in resources.inlining.css -%}#}
     {#        <style type="text/css">#}
     {#            {{ css }}#}
